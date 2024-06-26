@@ -2,32 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.width-container {
+  @apply container lg:w-[1350px] mx-auto px-4;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bg {
+  background: linear-gradient(to right, #d6d6d6, #efe4ff, #def1ff);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg-1 {
+  background: linear-gradient(to right, rgb(76, 76, 118), rgb(56, 71, 119), rgb(25, 23, 74));
+}
+
+.black {
+  background: linear-gradient(to right, rgb(0 0 0),
+      rgb(37 45 70),
+      rgb(0 0 0));
+}
+
+.text-blue {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to bottom left, #4540e1, #7100ff, #9c17ea);
+}
+
+.text-red {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #a75454, #be7777, #e0c3c3);
+}
+
+.text-green {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #4cd0fd,
+      #1a83f5,
+      #00ffcc)
+}
+
+.text-yellow {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #CDDC39,
+      #b2a6ff,
+      #CDDC39)
+}
+
+.text-yellow1 {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right,
+      #ecff00,
+      #bbbe17,
+      #ffe500)
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .card-content {
+    @apply absolute w-[calc(100%-2px)] h-[calc(100%-2px)] top-[1px] left-[1px] bg-gradient-to-b from-slate-500 to-slate-600 rounded-md
   }
+
+  .activeImg {
+    @apply border-2 border-[#03a9f4] bg-slate-900 bg-opacity-40
+  }
+}
+
+.imgShadow {
+  box-shadow: 2px 2px 40px #0336f482;
+  ;
 }
