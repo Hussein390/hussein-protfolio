@@ -5,7 +5,7 @@ export const projects = [
           proName: "Dashboard", 
           descaription: 'I learned a lot since I did this Project. It taught me how to organize my file strcuture and doing things faster.',
           gitUrl: 'https://github.com/Hussein390/React-Dashboard',
-          liveUrl: 'https://65d2e2175624edb6b5612178--serene-eclair-83f4da.netlify.app/',
+          liveUrl: 'https://dashboard-hussein.vercel.app/',
         img: '/assets/Screenshot 2024-04-09 052525.png',
           tags:['TypeScript', 'Tailwindcss','ReactJs', 'Syincfsion']
         },
