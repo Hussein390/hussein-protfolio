@@ -135,7 +135,8 @@ export default function Page() {
           </Link>
           <Link
             target="_blank"
-            href={"/CV.pdf"}
+            download
+            href={"/assets/my-resume.pdf"}
             className="hover:bg-gray-100 hover:text-black text-slate-100 rounded-full p-4"
           >
             <span className="text-fs-300 flex items-center gap-1 font-semibold">
