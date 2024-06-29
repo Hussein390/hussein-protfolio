@@ -114,9 +114,9 @@ export default function Page() {
           </div>
           <div className="bg-slate-50 p-4 px-6 rounded">
             <p className="pb-2 flex justify-center items-center h-[100px]">
-              <Imagy url='assets/material-ui-1.svg' />
+              <Imagy url='/assets/shadcn.png' />
             </p>
-            <h2 className='font-bold  text-lg  pt-2 border-t-4 border-t-slate-500'>Material-UI</h2>
+            <h2 className='font-bold  text-lg  pt-2 border-t-4 border-t-slate-500'>Shadcn-UI</h2>
           </div>
         </div>
       </div>
