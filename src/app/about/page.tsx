@@ -128,7 +128,7 @@ export default function Page() {
         <footer className="w-full h-20 p-2 z-10 flex gap-4 md:gap-8 justify-center items-center">
           <Link
             target="_blank"
-            href={"https://www.linkedin.com/in/hussein-saleem-4223b1206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/"}
+            href={"https://www.linkedin.com/in/hussein2004"}
             className="hover:bg-gray-100 text-slate-100 hover:text-black rounded-full p-4"
           >
             <Linkedin aria-label="LinkedIn Icon" />
