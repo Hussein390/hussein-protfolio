@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ['latin'] })
 const open = Open_Sans({ subsets: ['cyrillic'] })
 export const metadata = {
   title: "Hussein Saleem",
+  icons: {
+    icon: "/assets/hussein.jpg", // or .png, .svg
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

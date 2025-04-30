@@ -19,7 +19,7 @@ function Imagy({ url, id }: { url: string, id?: string }) {
     />
   )
 }
-export default function Page() {
+export default function About() {
   const [src, setSrc] = useState('')
   const [activeDivs, setActiveDivs] = useState<boolean[]>([false, true, false, false]);
 
@@ -34,16 +34,16 @@ export default function Page() {
       <div className="">
         <h1 className="text-slate-50 font-bold text-3xl  pb-2 border-b-4 border-slate-400 w-fit">About <span className="text-slate-400">Me</span></h1>
         <div className="">
-          <p className="text-slate-300 mt-6 text-[16px] leading-8">One day I got tired of physical hard work {<P text='" I have had enough "' />}, so I started to think {`" Is there a way to change this miserable situation? "`} The answer definitely {<P text="Yes" />}.</p>
+          <p className="text-slate-300 mt-6 text-[16px] leading-8">One day I got tired of physical hard work {<P text='" I have had enough "' />}, so I started to think {`" Is there a way to change this miserable situation? "`} The answer is definitely {<P text="Yes" />}.</p>
 
-          <p className="text-slate-300 mt-6 text-[16px] leading-8">I like Tech in general, but how I will learn and I am a high school drop out? I found out that programming somehow does not required a certificate, sounds realiy cool, right? So I started my research on careers. I just want one that I like to do and improve me constantly.</p>
+          <p className="text-slate-300 mt-6 text-[16px] leading-8">I like Tech in general, but how I will learn and I am a high school drop out? I found out that programming somehow does not required a certificate, sounds realiy good, right? So I started my research on careers. I just want one that I like to do and improve me constantly.</p>
 
           <p className="text-slate-300 mt-6 text-[16px] leading-8">So each career has to pass through these three conditions:
           </p>
           <ul className="list-disc pl-8 border-l-4 border-slate-400 mt-2 ml-2">
             <li className="text-slate-50 my-3 font-semibold" >I like to do</li>
-            <li className="text-slate-50 my-3 font-semibold">Improve me constantly</li>
-            <li className="text-slate-50 my-3 font-semibold">Develop my creativity</li>
+            <li className="text-slate-50 my-3 font-semibold">It helps me grow continuously</li>
+            <li className="text-slate-50 my-3 font-semibold">It lets me express my creativity</li>
           </ul>
           <p className="text-slate-300 mt-6 text-[16px] leading-8">
             <P text="Front-end web development" /> was chosen. And I started my journey learning things setp by step until I have the abilty to make modern websites.
@@ -96,6 +96,12 @@ export default function Page() {
           </div>
           <div className="bg-slate-50 p-4 px-6 rounded">
             <p className="pb-2 flex justify-center items-center h-[100px]">
+              <Imagy url='/assets/vue.png' />
+            </p>
+            <h2 className='font-bold  text-lg  pt-2 border-t-4 border-t-slate-500'>Vue Js</h2>
+          </div>
+          <div className="bg-slate-50 p-4 px-6 rounded">
+            <p className="pb-2 flex justify-center items-center h-[100px]">
               <Imagy url='assets/typescript.svg' />
             </p>
             <h2 className='font-bold  text-lg  pt-2 border-t-4 border-t-slate-500'>TypeScript</h2>
@@ -117,6 +123,12 @@ export default function Page() {
               <Imagy url='/assets/shadcn.png' />
             </p>
             <h2 className='font-bold  text-lg  pt-2 border-t-4 border-t-slate-500'>Shadcn-UI</h2>
+          </div>
+          <div className="bg-slate-50 p-4 px-6 rounded">
+            <p className="pb-2 flex justify-center items-center h-[100px]">
+              <Imagy url='/assets/github.png' />
+            </p>
+            <h2 className='font-bold  text-lg  pt-2 border-t-4 border-t-slate-500'>GitHub</h2>
           </div>
         </div>
       </div>

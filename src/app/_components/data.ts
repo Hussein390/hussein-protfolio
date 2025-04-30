@@ -1,25 +1,48 @@
 export const projects = [
   {
-    profional: [
+    forPeople: [
       {
-          proName: "Dashboard", 
-          descaription: 'I learned a lot since I did this Project. It taught me how to organize my file strcuture and doing things faster.',
-          gitUrl: 'https://github.com/Hussein390/React-Dashboard',
-          liveUrl: 'https://dashboard-hussein.vercel.app/',
-        img: '/assets/Screenshot 2024-04-09 052525.png',
-          tags:['TypeScript', 'Tailwindcss','ReactJs', 'Syincfsion']
+          proName: "Skyline Telecom", 
+          descaription: 'I made this for Skyline. When their delivery go to a client house, he fill the client info in order to update the client service',
+          gitUrl: 'https://github.com/Hussein390/Al-watany',
+          liveUrl: 'https://al-watany.vercel.app/',
+          img: '/assets/al-watany.png',
+          tags:['ReactJs', 'NextJs','TypeScript','Supabase', 'Postgres', 'Tailwindcss', 'Shadcn-UI']
         },
       {
-          proName: "Aware", 
-          descaription: 'This project gave confidence, and my voice become louder. I have faced many problems, and I solved them.',
-          gitUrl: 'https://github.com/Hussein390/React-Dashboard',
-          liveUrl: 'https://aware-with-me.vercel.app/',
-        img: '/assets/aware.png',
-          tags:['NextJs', 'ReactJs', 'TypeScript', 'Tailwindcss', 'Prisma', 'Mongodb']
+          proName: "Al Azal", 
+          descaription: 'What this project does is help phone shops who sell in installments, to manage the time & price',
+          gitUrl: 'https://github.com/Hussein390/Azal',
+          liveUrl: 'https://azal0.vercel.app/',
+          img: '/assets/al-azal.png',
+          tags:['NextJs', 'ReactJs', 'TypeScript', 'Tailwindcss', 'Shadcn-UI', 'Prisma', 'Mongodb']
         },
 
       
     ],
+  },
+  {
+    profional: [
+    {
+        proName: "Dashboard", 
+        descaription: 'I learned a lot since I did this Project. It taught me how to organize my file strcuture and doing things faster.',
+        gitUrl: 'https://github.com/Hussein390/React-Dashboard',
+        liveUrl: 'https://dashboard-hussein.vercel.app/',
+      img: '/assets/Screenshot 2024-04-09 052525.png',
+        tags:['TypeScript', 'Tailwindcss','ReactJs', 'Syincfsion']
+      },
+    {
+        proName: "Aware", 
+        descaription: 'This project gave me confidence, and my voice become louder. I have faced many problems, and I solved them.',
+        gitUrl: 'https://github.com/Hussein390/React-Dashboard',
+        liveUrl: 'https://aware-with-me.vercel.app/',
+      img: '/assets/aware.png',
+        tags:['NextJs', 'ReactJs', 'TypeScript', 'Tailwindcss', 'Prisma', 'Mongodb']
+      },
+
+    
+  ],
+  
   },
   {
     porsinal: [
@@ -46,26 +69,3 @@ export const projects = [
 
 
 
-export const blogs = [
-  {
-    id: 1,
-    title: 'How To Get A Job?',
-    content: 'One way is to search a lot on the companies that metch your skills',
-    date: '2024/6/3',
-    auther: 'Hussein Saleem'
-  },
-  {
-    id: 2,
-    title: 'How To Learn to Negotiate?',
-    content: 'One way is to search a lot on the companies that metch your skills',
-    date: '2024/6/3',
-    auther: 'Ali Msher'
-  },
-  {
-    id: 3,
-    title: 'How To Speak?',
-    content: 'One way is to search a lot on the companies that metch your skills',
-    date: '2024/5/3',
-    auther: 'Hussein Saleem'
-  },
-]
